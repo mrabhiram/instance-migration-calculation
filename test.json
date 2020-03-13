@@ -1,0 +1,62 @@
+[
+  {
+  "creation_time": "2019-12-09 22:11:20.660053+00:00",
+  "end_time": "2019-12-10 04:41:06.962146+00:00",
+  "incremental": false,
+  "incremental_phase": false,
+  "instances": [
+    {
+      "creation_time": "2019-12-09 22:11:20.664840+00:00",
+      "end_time": "2019-12-10 04:41:06.949048+00:00",
+      "src_instance_name": "/Compute-a123456/user@example.com/EXAMPLEVM/7b2645de-6919-4fb0-97c2-f6cedea04f40",
+      "start_time": "2019-12-09 22:11:22.643191+00:00",
+      "status": "completed",
+      "status_details": "The migration completed successfully",
+      "task_id": "f343c093-81ca-4a5e-8e7d-eb3a7ea0f2e1",
+      "total_size": 225485783040,
+      "update_time": "2019-12-10 04:41:06.944033+00:00",
+      "volumes": [
+        {
+          "bootable": false,
+          "cleanup_status_detail": "Cleanup is done. Updated/initiated on 2019-12-10 04:41:06.867198",
+          "creation_time": "2019-12-09 22:11:20.669894+00:00",
+          "end_time": "2019-12-10 04:41:06.917998+00:00",
+          "from_collocated": false,
+          "size": 214748364800,
+          "src_volume_name": "/Compute-a123456/user@example.com/EXAMPLEVM_data",
+          "start_time": "2019-12-09 22:11:22.650687+00:00",
+          "status": "completed",
+          "status_details": "The migration completed successfully",
+          "task_id": "e6983692-d6fc-4575-8bd5-c1c5e26dbc85",
+          "tgt_name": "_EXAMPLEVM_data_63475bad-473e-4ec7-9d4d-714c68dc0c46.8151e6f3-2a0b-4c8b-b414-7bd8e9263362",
+          "tgt_ocid": "ocid1.volume.oc1.phx.abyhqljtwgqbh3myaywzkhztjwjtduoeas4ozl7ovnt3qf3arbya5arglb3a",
+          "update_time": "2019-12-10 04:41:06.894077+00:00"
+        },
+        {
+          "bootable": true,
+          "cleanup_status_detail": "Cleanup is done. Updated/initiated on 2019-12-09 22:48:51.598773",
+          "creation_time": "2019-12-09 22:11:20.674834+00:00",
+          "end_time": "2019-12-09 22:48:51.614823+00:00",
+          "from_collocated": false,
+          "size": 10737418240,
+          "src_volume_name": "/Compute-a123456/user@example.com/EXAMPLEVM_storage",
+          "start_time": "2019-12-09 22:11:22.726448+00:00",
+          "status": "completed",
+          "status_details": "The migration completed successfully",
+          "task_id": "21d89c2b-6c1d-4639-a838-90c631c84460",
+          "tgt_name": "_EXAMPLEVM_storage_63475bad-473e-4ec7-9d4d-714c68dc0c46.df2a0bb7-7b03-406c-8b3f-cab1063c4606",
+          "tgt_ocid": "ocid1.bootvolume.oc1.phx.abyhqljtbtfynmrm7rxi7bslbe5zsd4aiqne76yynwd3zryrvbcdjnb7b4mq",
+          "update_time": "2019-12-09 22:48:51.610601+00:00"
+        }
+      ]
+    }
+  ],
+  "name": "63475bad-473e-4ec7-9d4d-714c68dc0c46",
+  "start_time": "2019-12-09 22:11:20.656210+00:00",
+  "status": "completed",
+  "status_details": "The migration completed successfully",
+  "total_size": 225485783040,
+  "update_time": "2019-12-10 04:41:06.957419+00:00",
+  "volumes": []
+  }
+]
